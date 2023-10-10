@@ -7,21 +7,21 @@ function logUpTo(n) {
     console.log(i);
   }
 }
-// Time complexity
+// Time complexity --> O(n)
 
 function logAtLeast10(n) {
   for (let i = 1; i <= Math.max(n, 10); i++) {
     console.log(i);
   }
 }
-// Time complexity
+// Time complexity --> O(n)
 
 function logAtMost10(n) {
   for (let i = 1; i <= Math.min(n, 10); i++) {
     console.log(i);
   }
 }
-// Time complexity
+// Time complexity --> O(1)
 
 function onlyElementsAtEvenIndex(array) {
   let newArray = [];
@@ -32,7 +32,7 @@ function onlyElementsAtEvenIndex(array) {
   }
   return newArray;
 }
-// Time complexity
+// Time complexity --> O(n)
 
 function subtotals(array) {
   let subtotalArray = [];
@@ -45,7 +45,7 @@ function subtotals(array) {
   }
   return subtotalArray;
 }
-// Time complexity
+// Time complexity --> O(n^2)
 
 function vowelCount(str) {
   let vowelCount = {};
@@ -63,4 +63,4 @@ function vowelCount(str) {
 
   return vowelCount;
 }
-// Time complexity
+// Time complexity --> O(n)
